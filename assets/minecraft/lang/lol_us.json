@@ -1,1 +1,18 @@
-{}
+{
+  "item.minecraft.music_disc_5.composer": "Samuel Åberg",
+  "item.minecraft.music_disc_11.composer": "C418",
+  "item.minecraft.music_disc_13.composer": "C418",
+  "item.minecraft.music_disc_blocks.composer": "C418",
+  "item.minecraft.music_disc_cat.composer": "C418",
+  "item.minecraft.music_disc_chirp.composer": "C418",
+  "item.minecraft.music_disc_far.composer": "C418",
+  "item.minecraft.music_disc_mall.composer": "C418",
+  "item.minecraft.music_disc_mellohi.composer": "C418",
+  "item.minecraft.music_disc_otherside.composer": "Lena Raine",
+  "item.minecraft.music_disc_pigstep.composer": "Lena Raine",
+  "item.minecraft.music_disc_relic.composer": "Aaron Cherof",
+  "item.minecraft.music_disc_stal.composer": "C418",
+  "item.minecraft.music_disc_strad.composer": "C418",
+  "item.minecraft.music_disc_wait.composer": "C418",
+  "item.minecraft.music_disc_ward.composer": "C418"
+}
