@@ -22,6 +22,37 @@ Extended Strings（拡張文字列）リソース パックは、デフォルト
 
 追加される文字列については、[ソース コード](https://github.com/myhttps/extended-strings/blob/main/assets/minecraft/lang/ja_jp.json)をご覧ください。
 
+## 文字列の使い方
+
+「検索」と表示するときに、次のコマンドが使われることがあります:
+
+```
+/tellraw @s "検索"
+/tellraw @s {"text":"検索"}
+```
+
+**結果:** 日本語: `検索`、英語: `検索`、リソース パックを使用していないとき: `検索`
+
+---
+
+文字列を使って「検索（`text.type.search`）」と表示するには、次のコマンドを使用します:
+
+```
+/tellraw @s {"translate":"text.type.search","fallback":"Search"}
+```
+
+**結果:** 日本語: `検索`、英語: `Search`、リソース パックを使用していないとき: `Search`
+
+---
+
+「%s 前（`text.type.time.ago`）」の %s に「数秒（`text.type.time.few`）」を挿入するには、次のコマンドを使用します:
+
+```
+/tellraw @s {"translate":"text.type.time.ago","fallback":"%s ago","with":[{"translate":"text.type.time.few","fallback":"A few seconds"}]}
+```
+
+**結果:** 日本語: `数秒前`、英語: `A few seconds ago`、リソース パックを使用していないとき: `A few seconds ago`
+
 ## 翻訳
 
 [Crowdin](https://crowdin.com/project/extended-strings) に参加して、Extended Strings の翻訳にご協力ください！
