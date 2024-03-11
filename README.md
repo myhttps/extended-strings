@@ -6,7 +6,7 @@ Extended Strings resource pack fills in missing strings by default and adds stri
 
 * Roman numerals for enchantment levels from XI (11) to CCLV (255) (keys are based on built-in styles)
 * Time units such as "1 day" and "2 weeks", etc. (some keys are based on built-in styles)
-* Music Disc composer name
+* Music Disc composers name
 * Strings for custom colored items such as “Green Apple”, “Green Torch”, and “Magenta Torch”, etc.
 * Strings for custom items with effects such as “Apple of Fire Resistance”, “Mundane Carrot”, and “Bread of Swiftness”, etc.
 * Strings “%s Spawn Egg” for custom Spawn Egg
