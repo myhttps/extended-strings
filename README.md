@@ -1,6 +1,6 @@
 # Extended Strings
 
-Extended Strings resource pack fills in missing strings by default and adds strings that you might use frequently, such as in commands.
+Extended Strings resource pack fills in missing strings by default and adds strings that might be used frequently, such as in commands.
 
 ## Available Strings
 
@@ -22,6 +22,37 @@ Extended Strings resource pack fills in missing strings by default and adds stri
 
 For more information about available strings, see [the source code](https://github.com/myhttps/extended-strings/blob/main/assets/minecraft/lang/en_us.json).
 
+## How to Use Strings
+
+To display the word “Search”, the following commands might be used frequently:
+
+```
+/tellraw @s "Search"
+/tellraw @s {"text":"Search"}
+```
+
+**Result:** English: `Search`, Japanese: `Search`, When no resource pack was used: `Search`
+
+---
+
+To display the word “Search (`text.type.search`)” using a string, use the following command:
+
+```
+/tellraw @s {"translate":"text.type.search","fallback":"Search"}
+```
+
+**Result:** English: `Search`, Japanese: `検索`, When no resource pack was used: `Search`
+
+---
+
+To insert the word “A few seconds (`text.type.time.few`)” into %s of “%s ago (`text.type.time.ago`)”, use the following command:
+
+```
+/tellraw @s {"translate":"text.type.time.ago","fallback":"%s ago","with":[{"translate":"text.type.time.few","fallback":"A few seconds"}]}
+```
+
+**Result:** English: `A few seconds ago`, Japanese: `数秒前`, When no resource pack was used: `A few seconds ago`
+
 ## Translation
 
-Join [Crowdin](https://crowdin.com/project/extended-strings) and help me translate Extended Strings.
+Join [Crowdin](https://crowdin.com/project/extended-strings) and help me translate Extended Strings!
