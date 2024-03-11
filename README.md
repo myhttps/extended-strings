@@ -9,7 +9,7 @@ Extended Strings resource pack fills in missing strings by default and adds stri
 * Music Disc composers name
 * Strings for custom colored items such as “Green Apple”, “Green Torch”, and “Magenta Torch”, etc.
 * Strings for custom items with effects such as “Apple of Fire Resistance”, “Mundane Carrot”, and “Bread of Swiftness”, etc.
-* Strings “%s Spawn Egg” for custom Spawn Egg
+* String “%s Spawn Egg” for custom Spawn Egg
 * “When Attacked:”, “When Used:”
 * Roman numerals for effect amplifier I (1) and from VII (7) to CCLVI (256) (keys are based on built-in styles)
 * “Add”, “Apply”, “Close”
