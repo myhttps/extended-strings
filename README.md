@@ -11,7 +11,7 @@ Extended Strings resource pack fills in missing strings by default and adds stri
 * Strings for custom items with effects such as “Apple of Fire Resistance”, “Mundane Carrot”, and “Bread of Swiftness”, etc.
 * String “%s Spawn Egg” for custom Spawn Egg
 * “When Attacked:”, “When Used:”
-* Roman numerals for effect amplifier I (1) and from VII (7) to CCLVI (256) (keys are based on built-in styles)
+* Roman numerals for effect amplifiers I (1) and from VII (7) to CCLVI (256) (keys are based on built-in styles)
 * “Add”, “Apply”, “Close”
 * “Copy”, “Paste”, “Cut”
 * String “%s + %s” for custom keyboard shortcut
@@ -21,3 +21,7 @@ Extended Strings resource pack fills in missing strings by default and adds stri
 * “Clear”, “Rain”, “Rain & Thunder”
 
 For more information about available strings, see [the source code](https://github.com/myhttps/extended-strings/blob/main/assets/minecraft/lang/en_us.json).
+
+## Translation
+
+Join [Crowdin](https://crowdin.com/project/extended-strings) and help me translate Extended Strings.
