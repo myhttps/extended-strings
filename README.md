@@ -1,6 +1,6 @@
 # Extended Strings
 
-**Note:** This is an unfinished resource pack.
+**Note:** This is an incomplete resource pack.
 
 Extended Strings resource pack fills in missing strings by default and adds strings that might be used frequently, such as in commands.
 
