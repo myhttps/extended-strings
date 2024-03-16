@@ -30,7 +30,7 @@ To display the word “Search”, the following commands might be used frequentl
 
 ```
 /tellraw @s "Search"
-/tellraw @s {"text":"Search"}
+/tellraw @s {"text": "Search"}
 ```
 
 **Result:** English: `Search`, Japanese: `Search`, When no resource pack was used: `Search`
@@ -40,7 +40,7 @@ To display the word “Search”, the following commands might be used frequentl
 To display the word “Search (`text.type.search`)” using a string, use the following command:
 
 ```
-/tellraw @s {"translate":"text.type.search","fallback":"Search"}
+/tellraw @s {"translate": "text.type.search", "fallback": "Search"}
 ```
 
 **Result:** English: `Search`, Japanese: `検索`, When no resource pack was used: `Search`
@@ -50,7 +50,7 @@ To display the word “Search (`text.type.search`)” using a string, use the fo
 To insert the word “A few seconds (`text.type.time.few`)” into %s of “%s ago (`text.type.time.ago`)”, use the following command:
 
 ```
-/tellraw @s {"translate":"text.type.time.ago","fallback":"%s ago","with":[{"translate":"text.type.time.few","fallback":"A few seconds"}]}
+/tellraw @s {"translate": "text.type.time.ago", "fallback": "%s ago", "with": [{"translate": "text.type.time.few", "fallback": "A few seconds"}]}
 ```
 
 **Result:** English: `A few seconds ago`, Japanese: `数秒前`, When no resource pack was used: `A few seconds ago`
