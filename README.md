@@ -57,4 +57,4 @@ To insert the word “A few seconds (`text.type.time.few`)” into %s of “%s a
 
 ## Translation
 
-Join [Crowdin](https://crowdin.com/project/extended-strings) and help me translate Extended Strings!
+Join <a href="https://crowdin.com/project/extended-strings" target="_blank" rel="nofollow noopener">Crowdin</a> and help me translate Extended Strings!
