@@ -2,6 +2,8 @@
 
 **Note:** This is an unfinished resource pack.
 
+**Note:** [options.languageWarning](# "Language translations may not be 100% accurate")
+
 Extended Strings resource pack fills in missing strings by default and adds strings that might be used frequently, such as in commands.
 
 ## Available Strings
