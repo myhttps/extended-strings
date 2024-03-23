@@ -321,7 +321,7 @@
   "gui.type.time.ago": "%s前",
   "gui.type.time.few": "数秒",
   "gui.type.time.later": "%s後",
-  "gui.undid": "元に戻しました",
+  "gui.undid": "取り消し済み",
   "gui.undo": "元に戻す",
   "gui.upload": "アップロード",
   "gui.view": "表示",
