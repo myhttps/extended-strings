@@ -22,7 +22,7 @@ Extended Strings（拡張文字列）リソース パックは、デフォルト
 * 「詳細」、「保存」、「検索」、「並べ替え（Sort）」、「並べ替え（Sort by）」
 * 時間の前後を示す文字列「%s 前」と「%s 後」
 * 「数秒」
-* 「晴れ」、「雨」、「豪雨」
+* 「晴れ」、「雨」、「雷雨」
 
 追加される文字列については、[ソース コード](https://github.com/myhttps/extended-strings/blob/main/assets/minecraft/lang/ja_jp.json)をご覧ください。
 
